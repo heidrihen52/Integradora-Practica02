@@ -1,7 +1,7 @@
 # Integradora-Practica02
 Practica de Clase para comenzar a utilizar GitHub cómo herramienta para desarrollo colaborativo, control de versiones y documentación del Proyecto integrador de la asignatura
 
-## Comandos básicos para el Maquetado
+## Comandos básicos para el Maquetado.
 
 ### Encabezados (Headings)
 Para poder dar enfásis a los contenidos de la documentación podemos utilizar los encabezados (Headings), para marcar alguna sección o subsección estos se marcan utilizando el simbolo #, entre menos  repeticiones tenga  mayor tamaño e importancia tendrá el texto.
