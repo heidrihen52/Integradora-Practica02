@@ -23,3 +23,31 @@ indicando tres caracteres de "-" continuos, en el maquetado
 
 EJEMPLO:
 ---
+*Esto es similar a un tag de < HR > en HTML
+
+### 3. Párrafos (PARAGRAPHS)
+Son utilizados para representar grandes secciones de texto que describen detalladamente las
+secciones de la documentación del proyecto.
+
+EJEMPLO:
+ Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 Este texto pertenece al párrafo 1 
+
+ Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2 Este texto pertenece al párrafo 2
+
+ Lo que en una página utilizariamos usando la etiqueta < P >
+
+ También podemos aplicar estilos básicos de alineación
+
+ Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto Este párrafo esta alineado a la izquierda por defecto
+
+ <p align="right">
+ Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación Este párrafo esta alineado a la derecha utilizando la propiedad de alineación
+ </p>
+
+ <p align="center">
+ Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación Este párrafo esta centrado usando la propiedad de alineación
+ </p>
+
+ <p align="justify">
+ Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación Este párrafo estará justificado utilizando la propiedad de alineación
+ </p>
