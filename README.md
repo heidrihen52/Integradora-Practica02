@@ -155,3 +155,56 @@ Si la documentación lo requiere podemos presentar en formato de tablas cpn fila
 |Fila 2 Celda1|Fila 2 Celda 2|Fila 2 Ceda 3 |Fila 2 Celda 4|
 |Fila 3 Celda1|Fila 3 Celda 2|Fila 3 Ceda 3 |Fila 3 Celda 4|
 
+
+En caso de necesitar la fusión de celdas en las columnas usremos la propiedad *clospan* del tag \<td> y en le caso de necesitar la fusion de filas utilizaremos la propiedad *rowspan* .
+**EJEMPLO:**
+
+|Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4|
+|-------------|--------------|--------------|-------------|
+|Fila 1 Celda1|Fila 1 Celda 2|Fila 1 Ceda 3 |Fila 1 Celda 4|
+|Fila 2 Celda1 <td colspan=2> Fila 2 Celda 2|Fila 2 Ceda 3 |
+|Fila 3 Celda1|Fila 3 Celda 2|Fila 3 Ceda 3 |Fila 3 Celda 4|
+|             |Fila 4 Celda 2|Fila 4 Ceda 3 |Fila 4 Celda 4|
+|             |Fila 5 Celda 2|Fila 5 Ceda 3 |Fila 5 Celda 4|
+|Fila 6 Celda1|Fila 6 Celda 2|Fila 6 Ceda 3 |Fila 6 Celda 4|
+
+Dado que  en el ejemplo pasado usadno solo markdown no se puede realizar la fusión  de filas, debemos utilizar el estandar de HTML, usando los tags: \<tr> para las filas y <td> para las celdas, y en ellos utiizar la propiedad de *colspan* y *rowspan* .
+**EJEMPLO:**
+
+<table>
+ <th>
+ <td> Encabezado 1</td>
+ <td> Encabezado 2</td>
+ <td> Encabezado 3</td>
+ <td> Encabezado 4</td>
+ </th>
+ 
+ <tr>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 2</td>
+  <td>Fila 1 Celda 3</td>
+  <td>Fila 1 Celda 4</td>
+ </tr>
+ <tr>
+  <td>Fila 2 Celda 1</td>
+  <td>Fila 2 Celda 2</td>
+  <td>Fila 2 Celda 3</td>
+  <td>Fila 2 Celda 4</td>
+ </tr>
+ <tr>
+  <td>Fila 3 Celda 1</td>
+  <td>Fila 3 Celda 2</td>
+  <td>Fila 3 Celda 3</td>
+  <td>Fila 3 Celda 4</td>
+ </tr>
+ <tr>
+  <td>Fila 4 Celda 1</td>
+  <td>Fila 4 Celda 2</td>
+  <td>Fila 4 Celda 3</td>
+  <td>Fila 4 Celda 4</td>
+ </tr>
+</table>
+
+
+
+
