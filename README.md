@@ -152,4 +152,6 @@ Si la documentación lo requiere podemos presentar en formato de tablas cpn fila
 |Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4|
 |-------------|--------------|--------------|-------------|
 |Fila 1 Celda1|Fila 1 Celda 2|Fila 1 Ceda 3 |Fila 1 Celda 4|
+|Fila 2 Celda1|Fila 2 Celda 2|Fila 2 Ceda 3 |Fila 2 Celda 4|
+|Fila 3 Celda1|Fila 3 Celda 2|Fila 3 Ceda 3 |Fila 3 Celda 4|
 
