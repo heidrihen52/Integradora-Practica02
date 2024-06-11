@@ -133,12 +133,23 @@ Para crear tu primer repositorio en GitHub deberás:
 
 
 ### 7. Ligas (Hipervínculos)
-Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetas utilizando los corchetes [], inmediatamente depues pondrémos la liga de referencia entre parentesis.
+Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetas utilizando los corchetes \[ \], inmediatamente depues pondrémos la liga de referencia entre parentesis \( \).
 
 **EJEMPLO:** Mi buscador favorito es [Google.](google.com).
 
-Documentación creada por:**Adrián Pérez Jiménez**.
+Documentación creada por: **Adrián Pérez Jiménez**.
 
 [230052@utxicotepec.edu.mx](230052@utxicotepec.edu.mx)
 
 [http://www.utxicotepec.edu.mx](http://www.utxicotepec.edu.mx)
+
+### 8. Tablas (Tables)
+
+Si la documentación lo requiere podemos presentar en formato de tablas cpn filas y columnas, para maquetarlas podemos utilizar el aracter \| para delimitar las columnas y \- para determinar las filas.
+
+**EJEMPLO:**
+
+|Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4|
+|-------------|--------------|--------------|-------------|
+|Fila 1 Celda1|Fila 1 Celda 2|Fila 1 Ceda 3 |Fila 1 Celda 4|
+
