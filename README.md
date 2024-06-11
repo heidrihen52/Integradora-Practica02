@@ -84,3 +84,61 @@ Algunas veces necesitaremos subraya texto dentro de la documentación, para ello
 **EJEMPLO:**
 
 Texto Texto Texto Texto Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins>Texto Subrayado</ins> Texto.
+
+### 5. Cuadrados para código o Reseñas (BLOCKQUOTES)
+
+Estos elementos son utilizados para resaltar instruccioes especiicas para la instalación, configuración y/o inicialización o mostrar secciones de código fuente. Se maqueta iniciando el texto con un simbolo de mayor que (\>)
+
+**EJEMPLO:**
+Para listar las carpetas y archivos en desde una terminal de sistema operativo Windows debemos ingresar con el comando:
+> C:/dir
+
+Después oprimimos la tecla "Enter".
+
+Tambien podemos ingresar textos multilinea.
+
+**EJEMPLO:**
+
+> Aquí se ingresan un conjunto de instrucciones para explicar al usuario, como instalar el software que
+> hemos diseñado.
+
+Y si deseamos incluir viñetas para enlistar podemos utilizar el caracter - dentro del texto a documentar.
+**EJEMPLO:**
+> - Descargar MySQL Server del Sitio Oficial
+> - Instalar el Sistema Gestor de Bases de Datos, definiendo el puerto y contraseña para el usuario ***root***
+> - Descargamos el archivo de respaldo de la base de datos (.sql)
+> - Restauramos la Base de Datos usano el comando *my sql *
+  >> C:/program Files/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
+
+### 6. Listas Ordenadas y Listas Desordenadas
+
+Si en nuestra documentación necesitamos incluir información en  modo de lista, un elemento tras otro podemos haerlo utilizando los números con un punto decimal si las desamos ordenadas o un guión medio - si solo queremos viñeta.
+**EJEMPLO;**
+Para crear tu primer repositorio en GitHub deberás:
+/5. Contar con tu cuenta de GitHub.
+1. Dar click en le boton: **Nuevo Repositorio*.
+2. Asignarle un Nombre a tu repositorio.
+8. Asignarle un nivel de privacidad entre
+   - **Publico:** Si quieres que esté disponible para todos los usurarios.
+   - **Privado:** Si deseas que solo a quien tu decidad puedan colaborar con tu proyecto.
+5. Definir si incluye un archivo de descripción llamado : *README.md*.
+50. Definir si habrá exclusiones de archivo a traves del archivo: *gitinore*
+3. Guardar los cambios.
+
+<ol start="5">
+ <li>Quinto</li>
+ <li>Sexto</li>
+ <li>Septimo</li>
+</ol>
+
+
+### 7. Ligas (Hipervínculos)
+Las ligas son utilizadas para vincular elementos o referencias del proyecto dentro del mismo repositorio o fuera de el. Y se maquetas utilizando los corchetes [], inmediatamente depues pondrémos la liga de referencia entre parentesis.
+
+**EJEMPLO:** Mi buscador favorito es [Google.](google.com).
+
+Documentación creada por:**Adrián Pérez Jiménez**.
+
+[230052@utxicotepec.edu.mx](230052@utxicotepec.edu.mx)
+
+[http://www.utxicotepec.edu.mx](http://www.utxicotepec.edu.mx)
