@@ -174,47 +174,49 @@ Dado que  en el ejemplo pasado usadno solo markdown no se puede realizar la fusi
 
 <table>
  <tr>
- <th> Encabezado 1</th>
- <th> Encabezado 2</th>
- <th> Encabezado 3</th>
- <th> Encabezado 4</th>
- </tr>
- 
- 
+  <th>Encabezado 1</th>
+ <th>Encabezado 2</th>
+ <th>Encabezado 3</th>
+ <th>Encabezado 4</th>
+</tr>
  <tr>
-  <td>Fila 1 Celda 1</td>
+   <td>Fila 1 Celda 1</td>
   <td>Fila 1 Celda 2</td>
   <td>Fila 1 Celda 3</td>
   <td>Fila 1 Celda 4</td>
  </tr>
  
  <tr>
-  <td>Fila 2 Celda 1</td>
-  <td>Fila 2 Celda 2</td>
-  <td>Fila 2 Celda 3</td>
-  <td>Fila 2 Celda 4</td>
+   <td>Fila 2 Celda 1</td>
+  <td colspan=3 align="center">Fila 2 Celda 2</td>
  </tr>
- 
+
  <tr>
-  <td>Fila 3 Celda 1</td>
-  <td>Fila 3 Celda 2</td>
-  <td>Fila 3 Celda 3</td>
-  <td>Fila 3 Celda 4</td>
+  <td rowspan=3> Fila 3 Celda 1</td>
+  <td> Fila 3 Celda 2</td>
+  <td> Fila 3 Celda 3</td>
+  <td> Fila 3 Celda 4</td>
  </tr>
- 
- <tr>
-  <td>Fila 4 Celda 1</td>
+
+<tr>
   <td>Fila 4 Celda 2</td>
-  <td>Fila 4 Celda 3</td>
-  <td>Fila 4 Celda 4</td>
- </tr>
+ <td>Fila 4 Celda 3</td>
+ <td>Fila 4 Celda 4</td>
+</tr>
  
-  <tr>
-  <td>Fila 5 Celda 1</td>
+<tr>
   <td>Fila 5 Celda 2</td>
-  <td>Fila 5 Celda 3</td>
-  <td>Fila 5 Celda 4</td>
- </tr>
+ <td>Fila 5 Celda 3</td>
+ <td>Fila 5 Celda 4</td>
+</tr>
+
+<tr>
+ <td>Fila 6 Celda 1</td> 
+ <td>Fila 6 Celda 2</td>
+ <td>Fila 6 Celda 3</td>
+ <td>Fila 6 Celda 4</td>
+</tr>
+
 </table>
 
 
